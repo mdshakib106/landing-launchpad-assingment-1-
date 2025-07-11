@@ -28,6 +28,12 @@ nav{
     margin-bottom: 158px;
     align-items: center;
 }
+nav .name {
+    font-size: 34px;
+    color:#4E47FF;
+    font-weight: 900px;
+}
+
 .banner {
     text-align: center;
 }
@@ -183,4 +189,51 @@ body{
     background-color: rgb(78, 71, 255);
     border: none;
     border-radius: 10px;
+}
+
+footer{
+    height: 428px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .container{
+    width: 531px;
+    height: 221px;
+    color: #8987A1;
+}
+.container h2{
+      font-size: 100px;
+      color:#4E47FF;
+      font-weight: bold;
+}
+.point ul {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+     padding: 10px;
+     color: #8C8E98;
+     border-radius: 10px;
+     
+}
+
+li{
+    list-style: none;
+}
+
+/* button hover */
+button:hover ,.submit:hover , a:hover{
+    background-color: white;
+    color: #252432;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-delay: 0.4s;
+    transition-property: all;
+    transition-timing-function: linear;
+    border: 2px solid #4E47FF;
 }
