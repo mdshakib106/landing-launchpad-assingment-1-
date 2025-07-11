@@ -1,3 +1,20 @@
+
+.raleway-regular> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
 header{
     background-image: url('../assets/hero-bg.png');
     height: 698px;
@@ -52,4 +69,42 @@ button{
 }
 .second-page img {
     border-radius: 30px;
+}
+.user-page {
+    width:1140px;
+    height: 306px;
+    text-align: center;
+    background-color:rgb(218, 227, 255);
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.users-title {
+    font-size: 38px;
+    font-weight: bold;
+    color:#252432;
+}
+
+.users-action {
+    display: flex;
+    gap:158px;
+    margin: 30px;
+}
+
+.user h2 {
+    font-size: 80px;
+    font-weight: bold;
+    color:#4E47FF;
+}
+
+.user p {
+    font-size: 20px;
+    color:#8C8E98;
+}
+
+body{
+    background-color: rgb(245, 248, 255);
 }
