@@ -16,7 +16,7 @@
     align-items: center;
 }
 header{
-    background-image: url('../assets/hero-bg.png');
+    background-image: url('../Assets/Hero-bg.png');
     height: 698px;
 }
 nav{
@@ -57,7 +57,7 @@ button{
     display:flex;
     margin:116px auto;
     border-radius: 30px;
-    width: 1140px;
+    width: 1141px;
     justify-content: space-between;
 }
 
