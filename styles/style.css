@@ -29,3 +29,27 @@ button{
   border: none;
   border-radius: 10px;
 }
+
+.second-page{
+    display:flex;
+    margin:116px auto;
+    border-radius: 30px;
+    width: 1140px;
+    justify-content: space-between;
+}
+
+.second-page .title {
+        font-size: 42px;
+        font-weight: bold;
+        color:#252432;
+}
+.second-page .slide-des {
+          font-size: 24px;
+          font-weight: 200;
+          color:#8C8E98;
+          margin: 23px auto;
+
+}
+.second-page img {
+    border-radius: 30px;
+}
