@@ -151,3 +151,36 @@ body{
     font-weight: 200;
     color: #8C8E98;
 }
+
+/* from */
+.form{
+    display:flex;
+    width: 1140px;
+    height: 632px;
+    margin: auto;
+
+}
+.form h2{
+    font-size: 97px;
+    font-weight: bold;
+}
+.form-action{
+   width:497px;
+   height: 490px;
+}
+.input{
+    display: block;
+    border:1px solid rgb(217, 201, 201);
+    border-radius: 5px;
+    padding: 20px;
+    width: 497px;
+}
+.submit{
+    display: block;
+    width: 497px;
+    padding:20px;
+    color:white;
+    background-color: rgb(78, 71, 255);
+    border: none;
+    border-radius: 10px;
+}
